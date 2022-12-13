@@ -11,5 +11,5 @@ jobs:
       - id: weblog_import
         uses: neatnik/weblog.lol@v1
         env:
-        ADDRESS: adam
-        WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
+          ADDRESS: adam
+          WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
