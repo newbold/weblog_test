@@ -8,7 +8,3 @@ Title: Home
 Welcome to the home page.
 
 This is the home page.
-
-Yep. Home page.
-
-Indeed.
