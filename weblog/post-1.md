@@ -1,7 +1,5 @@
 Date: 1998-04-01 12:01 PM
 
-# This is the first post.
+# Post 1
 
-First post here.
-
-This is the first post.
+This is post 1.
