@@ -35,3 +35,4 @@ This is a new blog post. You can author it in _Markdown_, which is **awesome**.]
 
 Navigation: home, another-page
 # Navigation: home, [Profile](https://profile.omg.lol/rb/), 2022/12/apple-post, another-page
+
