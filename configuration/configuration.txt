@@ -2,7 +2,7 @@
 
 # About your weblog
 
-Weblog Title: A Changed Weblog
+Weblog Title: A Test Weblog
 Weblog Description: This is a weblog.
 Author: Your Name
 
