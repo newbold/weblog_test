@@ -1,20 +1,22 @@
 // Weblog Configuration
 
-# About your weblog
+;; About your weblog
+;; -----------------
 
-Weblog Title: A Test Weblog
+Weblog Title: A Weblog
 Weblog Description: This is a weblog.
 Author: Your Name
 
-Landing page: home
 
-# General config stuff
+;; General config stuff
+;; --------------------
 
 Separator:  · 
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Tag path: /tag/
 
-# Time stuff
+
+;; Time stuff
+;; ----------
 
 ; You can use a timezone value from the "TZ database name" column on this 
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -22,9 +24,12 @@ Tag path: /tag/
 Timezone: UTC
 Date format: F j, Y g:i A
 
-# Posts
+
+;; Posts
+;; -----
 
 Post path format: /Y/m/
+
 Default post: <<[---
 Date: $date
 ---
@@ -33,8 +38,18 @@ Date: $date
 
 This is a new blog post. You can author it in _Markdown_, which is **awesome**.]>>
 
-Navigation: home, another-page
-# Navigation: home, [Profile](https://profile.omg.lol/rb/), 2022/12/apple-post, another-page
 
-Random post location: /random-post
+;; Recent posts {recent-posts}
+;; ---------------------------
 
+Recent posts count: 3
+Recent posts format: <<[---
+<ul>
+<li><a href="/'.$location.'">'.$title.'</a></li>
+</ul>]>>
+
+
+;; Tags {tags}
+;; -----------
+
+Tag path: /tag/
