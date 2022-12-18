@@ -44,7 +44,7 @@ This is a new blog post. You can author it in _Markdown_, which is **awesome**.]
 ;; ---------------------------
 
 Recent posts count: 3
-Recent posts format: <<[---
+Recent posts format: <<[
 <ul>
 [each]<li><a href="/'.$location.'">'.$title.'</a></li>
 </ul>]>>
