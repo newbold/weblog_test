@@ -55,7 +55,7 @@ Recent posts format: <<[
 
 Post list format: <<[
 <ul>
-[post:begin]<li><a href="$location">$title</a> $date</li>[post:end]
+[post:begin]<li><a href="$location">$title</a> <small>$date</small></li>[post:end]
 </ul>]>>
 
 
