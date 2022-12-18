@@ -6,7 +6,7 @@
 Weblog title: A Weblog
 Weblog description: This is a weblog.
 Author: Your Name
-Canonical domain: elsewhere.tld
+//Canonical domain: elsewhere.tld
 
 
 ;; General config stuff
