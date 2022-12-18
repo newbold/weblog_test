@@ -3,9 +3,10 @@
 ;; About your weblog
 ;; -----------------
 
-Weblog Title: A Weblog
-Weblog Description: This is a weblog.
+Weblog title: A Weblog
+Weblog description: This is a weblog.
 Author: Your Name
+Canonical domain: elsewhere.tld
 
 
 ;; General config stuff
