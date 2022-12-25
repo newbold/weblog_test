@@ -5,3 +5,4 @@ Type: Page
 # Another page
 
 This is another page.
+
