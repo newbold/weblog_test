@@ -1,6 +1,5 @@
 // Weblog Configuration
 
-
 ;; About your weblog
 ;; -----------------
 
