@@ -9,7 +9,7 @@ Weblog description: This is a weblog.
 Author: Your Name
 //Canonical domain: elsewhere.tld
 
-Landing page: home
+//Landing page: home
 
 ;; General config stuff
 ;; --------------------
