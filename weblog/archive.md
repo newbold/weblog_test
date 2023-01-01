@@ -1,3 +1,4 @@
+Type: Page
 Location: /archive
 
 # Archive

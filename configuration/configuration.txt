@@ -61,7 +61,9 @@ Recent posts format: <<[
 
 Post list format: <<[
 <ul>
-[post:begin]<li><a href="$location">$title</a></li>[post:end]
+[year:begin]<h3>year</h3>
+	[post:begin]<li><a href="$location">$title</a></li>[post:end]
+[year:end]
 </ul>]>>
 
 
