@@ -60,11 +60,12 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-<ul>
 [year:begin]<h3>year</h3>
+<ul>
 	[post:begin]<li><a href="$location">$title</a></li>[post:end]
+</ul>
 [year:end]
-</ul>]>>
+]>>
 
 
 ;; Search
