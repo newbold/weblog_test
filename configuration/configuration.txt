@@ -13,7 +13,7 @@ Author: Your Name
 ;; --------------------
 
 Separator:  · 
-// Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
+Navigation: about, another-page
 
 
 ;; Time stuff
@@ -22,7 +22,7 @@ Separator:  ·
 ; You can use a timezone value from the "TZ database name" column on this 
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-Timezone: UTC
+Timezone: America/Sao_Paulo
 Date format: F j, Y g:i A
 
 
@@ -37,9 +37,7 @@ Feed post count: 25
 
 Post path format: /Y/m/
 
-Default post: <<[---
-Date: $date
----
+Default post: <<[Date: $date
 
 # Your new post
 
@@ -60,12 +58,9 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-[year:begin]<h3>year</h3>
 <ul>
-	[post:begin]<li><a href="$location">$title</a></li>[post:end]
-</ul>
-[year:end]
-]>>
+[post:begin]<li><a href="$location">$title</a></li>[post:end]
+</ul>]>>
 
 
 ;; Search

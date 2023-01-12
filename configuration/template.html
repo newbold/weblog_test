@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <title>{weblog-title}{separator}{post-title}</title>
@@ -13,7 +12,6 @@
 @import url('https://static.omg.lol/type/font-lato-italic.css');
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
-
 
 :root {
 	--foreground: #212529;
@@ -160,7 +158,11 @@ td, th {
 <body>
 
 <header>
-	<h1 class="weblog-title"><a href="/">Title: {weblog-title}</a></h1>
+
+<p>Date: {date}</p>
+
+
+	<h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
 	{navigation}
 </header>
 
@@ -169,7 +171,7 @@ td, th {
 <article>
 	{body}
 	<aside class="post-info">
-		<i class="fa-solid fa-clock"></i> <a href="{permalink}">{date}</a>
+		<i class="fa-solid fa-clock"></i> {date}
 	</aside>
 	<aside class="post-tags">
 		{tags}
@@ -177,6 +179,10 @@ td, th {
 </article>
 
 <hr>
+
+<h2>Testing</h2>
+
+{custom-metadata}
 
 <h2>Recent posts</h2>
 
@@ -190,5 +196,3 @@ td, th {
 
 </body>
 </html>
-
-
